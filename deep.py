@@ -22,7 +22,7 @@ image_height, image_width = image_resized.shape[:2]
 cv2.imwrite("resized_1.jpg", image_resized)
 
 # Set up the Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC2u_Cj5YAa_MQ4ezV4HJOkKKCKkdipb8o"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Initialize the Gemini model
 gemini_pro = Gemini(model_name="models/gemini-1.5-flash")
